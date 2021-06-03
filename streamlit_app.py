@@ -15,6 +15,7 @@ model = load(open('diabetes.pkl','rb'))
 # 8. Age
 
 st.title('Diabetes Prediction App')
+st.subheader('This app will help doctors automate the process of carrying out repetitive tasks of analysing patients for diabetes')
 st.write('### Please enter the patient\'s information for examination')
 col1, col2, col3, col4 = st.beta_columns(4)
 
